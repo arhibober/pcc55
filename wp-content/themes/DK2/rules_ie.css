@@ -1,0 +1,117 @@
+#slideshow
+{
+	height: 390px !important;
+}
+
+.container#cont_main
+{
+	position:relative;
+	top:-100px !important;
+}
+.points
+{
+	position: relative !important;
+	left: 30% !important;
+}
+#points3
+{
+	position: relative !important;
+	left: 12% !important;
+}	
+#searchform
+{
+	width: 73% !important;
+	position: relative !important;
+	left: -5px !important;
+	top: -8px !important;
+}
+#searchimage
+{
+	position: relative !important;
+	left: -5px !important;
+	top: -8px !important;		
+}
+
+#searchgroup
+{
+	float: right !important;
+}
+#sidebar
+{
+	position: relative !important;
+	top: 0px !important;
+}
+.col_footer
+{
+	width: 25% !important;
+}
+ul#menu-napravleniya-deyatelnosti 
+{
+	margin-top: -10px !important;
+}
+#menu-napravleniya-deyatelnosti li
+{
+	height: 40px !important;
+	margin: 10px 0 !important;
+	padding:0px !important;
+}
+#menu-napravleniya-deyatelnosti li a
+{
+	height: 40px !important;
+	padding: 10px !important;
+}
+.wp-post-image
+{
+	padding: 0px !important;
+}
+.widget-title
+{
+	color: #2A6496 !important;
+}
+
+.widget ul li
+{
+	color: #cccccc !important;
+}
+
+.widget ul li a
+{
+	color: #ffffff !important;
+}
+
+#copyr
+{
+	color: #cccccc !important;
+}
+
+#copyr a
+{
+	color: #cccccc !important;
+}
+
+#fancy_outer
+{
+	min-height: 0px !important;
+	height: 0px !important;
+}
+
+.bbp-register-link
+{
+	min-height: 32px !important;
+	height: 32px !important;
+	padding-bottom: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.bbp-login-links
+{
+	min-height: 32px !important;
+	height: 32px !important;
+	padding-bottom: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.title
+{
+	line-height: 30px !important;.
+}

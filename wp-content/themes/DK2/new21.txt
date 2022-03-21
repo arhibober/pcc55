@@ -1,0 +1,20 @@
+<div <?php post_class() ?> id="post-<?php the_ID(); ?>" style="width: 190px !important; display: inline !important; padding: 10px;" valign="top">
+							<table style="width:280px; border:1px solid;">
+								<tr >
+									<td style="height:200px;  overflow:hidden !important;">
+										<h1 class="title" style="font-size: 20px !important;"><a href="<?php the_permalink() ?>" rel="bookmark" title="Подробнее"><?php the_title(); ?></a></h1>
+										<div class="entry">
+											<?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail("", array("class" => "alignleft post_thumbnail"), 235, 270); } ?>
+											<?php the_content(''); ?>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="readmorecontent">
+											<a class="readmore" href="<?php the_permalink() ?>" rel="bookmark" title="Подробнее">Далее &raquo;</a>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
